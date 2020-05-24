@@ -8,7 +8,7 @@
 # each identified by a custom alias.
 #########################################################################
 [local]
-127.0.0.1 ansible_connection=local
+127.0.0.1 ansible_connection=local ansible_sudo_pass=shrini1@
 # [servers]
 # server1 ansible_host=localhost
 
