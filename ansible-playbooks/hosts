@@ -7,9 +7,9 @@
 # The "servers" groups is an example of a group with three servers,
 # each identified by a custom alias.
 #########################################################################
-
-[servers]
-server1 ansible_host=localhost
+127.0.0.1 ansible_connection=local
+#[servers]
+#server1 ansible_host=localhost
 
 ##########################################################################
 # Makes sure we use Python 3 (/usr/bin/python3) on remote hosts.
